@@ -1,0 +1,5 @@
+
+select name,time
+from work join employee on employee.id = work.employee_id
+where time <= '2020-03-01 12:00:00.000' and time >= '2020-03-01 00:00:00.000'
+
